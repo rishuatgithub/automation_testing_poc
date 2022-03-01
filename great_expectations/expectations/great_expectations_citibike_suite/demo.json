@@ -1,0 +1,53 @@
+{
+  "data_asset_type": null,
+  "expectation_suite_name": "great_expectations_citibike_suite.demo",
+  "expectations": [
+    {
+      "expectation_type": "expect_table_columns_to_match_ordered_list",
+      "kwargs": {
+        "column_list": [
+          "tripduration",
+          "starttime",
+          "stoptime",
+          "start station id",
+          "start station name",
+          "start station latitude",
+          "start station longitude",
+          "end station id",
+          "end station name",
+          "end station latitude",
+          "end station longitude",
+          "bikeid",
+          "usertype",
+          "birth year",
+          "gender"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_table_row_count_to_be_between",
+      "kwargs": {
+        "max_value": 3600,
+        "min_value": 3600
+      },
+      "meta": {}
+    }
+  ],
+  "ge_cloud_id": null,
+  "meta": {
+    "citations": [
+      {
+        "batch_request": {
+          "data_asset_name": "citibike.csv",
+          "data_connector_name": "default_inferred_data_connector_name",
+          "datasource_name": "getting_started_datasource",
+          "limit": 1000
+        },
+        "citation_date": "2022-02-28T23:56:17.003088Z",
+        "comment": "Created suite added via CLI"
+      }
+    ],
+    "great_expectations_version": "0.14.8"
+  }
+}

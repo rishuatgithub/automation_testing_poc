@@ -1,0 +1,5 @@
+selenium
+great_expectations
+sqlalchemy
+snowflake-connector-python
+snowflake-sqlalchemy
