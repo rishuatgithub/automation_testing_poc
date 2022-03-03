@@ -3,3 +3,5 @@ great_expectations
 sqlalchemy
 snowflake-connector-python
 snowflake-sqlalchemy
+webdriver-manager
+tableau-api-lib
